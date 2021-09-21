@@ -1,0 +1,79 @@
+
+
+body {
+    background-image: url("../images/90s_background.png");
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+}
+
+header, main, footer {
+    background-color: rgba(155, 93, 229, 0.85);
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: black;
+}
+
+nav {
+    background-color: #00f5d4;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: #047ca3
+}
+
+a:hover {
+    color: black;
+    background-color: #fee440;
+    padding: 5px;
+}
+
+a:active {
+    background-color: #f15bb5;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+    padding: 0px, 30px, 0px, 30px;
+    line-height: 1.5;
+}
+
+.img-link {
+    background-color: none;
+    padding: 0px;
+}
+.img-link:hover {
+    padding: 0px;
+    background-color: none;
+}
+.plain-link {
+    background-color: rgba(155, 93, 229, 0);
+    color: white;
+    padding: 0px
+}
+.plain-link:hover {
+    color: black;
+    background-color: rgba(155, 93, 229, 0);
+    padding: 0px;
+}
+.top-link {
+    color: white;
+}
+
+.top-link:hover {
+    color: black;
+}
