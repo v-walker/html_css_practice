@@ -1,0 +1,35 @@
+body {
+    background: black;
+    height: 100vh;
+
+}
+
+.header {
+    background: pink;
+    height: 10%;
+    top: 0;
+}
+
+.sidebar {
+    background: yellow;
+    height: 600px;
+    width: 300px;
+    margin-top: 1%;
+    float: left;
+
+}
+
+.content {
+    background: greenyellow;
+    height: 400px;
+    width: 600px;
+    margin-top: 1%;
+    float: right;
+}
+.footer {
+    background: purple;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

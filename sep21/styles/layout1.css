@@ -1,0 +1,201 @@
+
+/* Box Model Homework 1 Styling */
+body {
+    background: crimson;
+}
+.header {
+    background-color: turquoise;
+    width: 100%;
+    height: 100px;
+}
+.sidebar {
+    background-color: pink;
+    width: 40%;
+    height: 600px;
+}
+.main {
+    background-color: cornsilk;
+    width: 60%;
+    position: relative;
+    display: inline;
+    top: -600px;
+    float: right;
+    height: 600px;
+}
+.footer {
+    background-color: skyblue;
+    width: 100%;
+    height: 100px;
+}
+
+/* Two Column Styling with Absolute Positioning */
+.body2 {
+    background-color: cyan;
+    position: relative;
+    height: 100vh;
+}
+
+.sidebar2 {
+    background-color: pink;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+
+}
+
+.main2 {
+    background-color: cornsilk;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+
+/* Holy Grail Styling with Absolute Positioning*/
+.body3 {
+    background-color: white;
+    position: relative;
+    height: 100vh;
+}
+
+.header2 {
+    background-color: turquoise;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0%;
+}
+.left {
+    background-color: pink;
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    top: 10%;
+}
+.center {
+    background-color: mediumspringgreen;
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+.right {
+    background-color: mediumslateblue;
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    top: 10%;
+    right: 0%
+}
+.footer2 {
+    background-color: yellow;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 80%;
+}
+
+/* Three Column Positioning */
+.body4 {
+    background-color: cyan;
+    position: relative;
+    height: 100vh;
+}
+
+.left2 {
+    background-color: pink;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+
+.center2 {
+    background-color: cornsilk;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+}
+
+.right2 {
+    background-color: purple;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+/* 9 Grids */
+
+.box1 {
+    background-color: pink;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+}
+
+.box2 {
+    background-color: yellow;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    left: 33%;
+}
+
+.box3 {
+    background-color: green;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    right: 1%
+}
+
+.box4 {
+    background-color: blue;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    top: 33%;
+}
+
+.box5 {
+    background-color: lightgreen;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    left: 33%;
+    top: 33%;
+}
+.box6 {
+    background-color: white;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    right: 1%;
+    top: 33%;
+}
+
+.box7 {
+    background-color: cornsilk;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    top: 66%;
+}
+.box8 {
+    background-color: purple;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    top: 66%;
+    left: 33%;
+}
+.box9 {
+    background-color: orange;
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    right: 1%;
+    top: 66%;
+}
