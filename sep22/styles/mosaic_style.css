@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.container {
+    width: 80vw;
+    height: 90vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.flexContainerColumn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.flexContainerRow {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.flex1 {
+    flex: 1;
+}
+.flex2 {
+    flex: 2;
+}
+.flex3 {
+    flex: 3;
+}
+.flex4 {
+    flex: 4;
+}
+.flex5 {
+    flex: 5;
+}
+
+.red {
+    background-color: red;
+}
+.black {
+    background-color: black;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.pink {
+    background-color: pink;
+}
+.purple {
+    background-color: purple;
+}
+.white {
+    background-color: white;
+}
+.border {
+    border: 2px solid rgb(104, 103, 103);
+}
+.no_bottom_border {
+    border-top: 2px solid rgb(104, 103, 103);
+    border-right: 2px solid rgb(104, 103, 103);
+    border-left: 2px solid rgb(104, 103, 103);
+}
+
+.no_top_border {
+    border-bottom: 2px solid rgb(104, 103, 103);
+    border-right: 2px solid rgb(104, 103, 103);
+    border-left: 2px solid rgb(104, 103, 103);
+}
+.left_border {
+    border-left: 2px solid rgb(104, 103, 103);
+}
+.right_border {
+    border-right: 2px solid rgb(104, 103, 103);
+}
+.top_border {
+    border-top: 2px solid rgb(104, 103, 103);
+}
+.bottom_border {
+    border-bottom: 2px solid rgb(104, 103, 103);
+}
